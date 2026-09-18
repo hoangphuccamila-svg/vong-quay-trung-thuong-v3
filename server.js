@@ -5,12 +5,12 @@ const DATA=path.join(__dirname,'data.json');
 const prizes=[
  {name:'Bao cơm trưa',weight:0.5},
  {name:'Cà phê',weight:0.5},
- {name:'10.000 VND',weight:7},
- {name:'20.000 VND',weight:5},
- {name:'50.000 VND',weight:8},
- {name:'100.000 VND',weight:3},
- {name:'200.000 VND',weight:1},
- {name:'Trúng Gió',weight:75}
+ {name:'10.000 VND',weight:15},
+ {name:'20.000 VND',weight:8},
+ {name:'50.000 VND',weight:10},
+ {name:'100.000 VND',weight:4},
+ {name:'200.000 VND',weight:2},
+ {name:'Trúng Gió',weight:60}
 ];
 if(!fs.existsSync(DATA))fs.writeFileSync(DATA,JSON.stringify({players:{},history:[]},null,2));
 const read=()=>JSON.parse(fs.readFileSync(DATA,'utf8'));
