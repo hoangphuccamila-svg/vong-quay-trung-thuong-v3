@@ -6,8 +6,8 @@ const prizes=[
  {name:'Bao cơm trưa',weight:0.5},
  {name:'Cà phê',weight:0.5},
  {name:'10.000 VND',weight:20},
- {name:'20.000 VND',weight:6},
- {name:'50.000 VND',weight:10},
+ {name:'20.000 VND',weight:11},
+ {name:'50.000 VND',weight:8},
  {name:'100.000 VND',weight:1},
  {name:'200.000 VND',weight:1},
  {name:'Trúng Gió',weight:60}
