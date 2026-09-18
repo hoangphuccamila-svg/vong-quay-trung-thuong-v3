@@ -5,10 +5,10 @@ const DATA=path.join(__dirname,'data.json');
 const prizes=[
  {name:'Bao cơm trưa',weight:0.5},
  {name:'Cà phê',weight:0.5},
- {name:'10.000 VND',weight:15},
+ {name:'10.000 VND',weight:17},
  {name:'20.000 VND',weight:8},
  {name:'50.000 VND',weight:10},
- {name:'100.000 VND',weight:4},
+ {name:'100.000 VND',weight:2},
  {name:'200.000 VND',weight:2},
  {name:'Trúng Gió',weight:60}
 ];
