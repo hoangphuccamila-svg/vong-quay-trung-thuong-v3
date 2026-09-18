@@ -6,7 +6,7 @@ const prizes=[
  {name:'Bao cơm trưa',weight:1},{name:'Cà phê',weight:1},
  {name:'100.000 VND',weight:20},{name:'200.000 VND',weight:10},
  {name:'50.000 VND',weight:30},{name:'20.000 VND',weight:1},
- {name:'Trúng Gió',weight:80}
+ {name:'Trúng Gió',weight:252}
 ];
 if(!fs.existsSync(DATA))fs.writeFileSync(DATA,JSON.stringify({players:{},history:[]},null,2));
 const read=()=>JSON.parse(fs.readFileSync(DATA,'utf8'));
